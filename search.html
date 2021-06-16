@@ -5,6 +5,160 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Search</title>
+        <style>
+            fieldset {
+                border-style: none;
+            }
+            .label {
+                width: 200px;
+                display: inline-block;
+            }
+            button {
+                width: 100px;
+                margin-left: 204px;
+            }
+        </style>
     </head>
-    <body></body>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="registration.html">registration</a></li>
+                    <li><a href="autorization.html">autorization</a></li>
+                    <li><a href="search.html">search</a></li>
+                    <li><a href="table.html">table</a></li>
+                </ul>
+            </nav>
+        </header>
+        <form action="#">
+            <fieldset>
+                <p>
+                    <label>
+                        <span class="label">Тип кузова</span>
+                        <select>
+                            <option>Седан</option>
+                            <option>Универсал</option>
+                            <option>Хэтчбек</option>
+                            <option>Минивен</option>
+                            <option>Внедорожник (кроссовер)</option>
+                            <option>Купе</option>
+                            <option>Кабриолет</option>
+                            <option>Пикап</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="label">Марка авто</span>
+                        <select>
+                            <option>BMW</option>
+                            <option>Mercedes</option>
+                            <option>Volkswagen</option>
+                            <option>Opel</option>
+                            <option>Porshe</option>
+                            <option>Lexus</option>
+                            <option>Honda</option>
+                            <option>Toyota</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="label">Страна производства</span>
+                        <select>
+                            <option>Германия</option>
+                            <option>Франция</option>
+                            <option>Австрия</option>
+                            <option>Корея</option>
+                            <option>Америка</option>
+                            <option>Англия</option>
+                            <option>Бельгия</option>
+                            <option>Россия</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="label">Цена</span>
+                        <input type="number" placeholder="от" />
+                        <input type="number" placeholder="до" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="label">Год выпуска</span>
+                        <input type="number" placeholder="от" />
+                        <input type="number" placeholder="до" />
+                    </label>
+                </p>
+                <span>Состояние</span>
+                <p>
+                    <label>
+                        <span class="label">битая</span>
+                        <input type="checkbox" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="label">в кредите</span>
+                        <input type="checkbox" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="label">не растаможенная</span>
+                        <input type="checkbox" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="label">Тип топлива</span>
+                        <select>
+                            <option>Бензин</option>
+                            <option>Дизель</option>
+                            <option>Газ</option>
+                            <option>Электро</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="label">Тип коробки передач</span>
+                        <select>
+                            <option>автомат</option>
+                            <option>механика</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="label">Цвет</span>
+                        <select>
+                            <option>Черный</option>
+                            <option>Белый</option>
+                            <option>Синий</option>
+                            <option>Голубой</option>
+                            <option>Красный</option>
+                            <option>Зеленый</option>
+                            <option>Желтый</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="label">Комфорт</span>
+                        <select>
+                            <option>Люк</option>
+                            <option>Кожаный салон</option>
+                            <option>Аудиосистема</option>
+                            <option>Кондиционер</option>
+                            <option>Подогрев кресла</option>
+                            <option>Парковочная помошь</option>
+                        </select>
+                    </label>
+                </p>
+                <button type="submit">Поиск</button>
+            </fieldset>
+        </form>
+    </body>
 </html>
