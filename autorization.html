@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Registration</title>
+        <title>Document</title>
         <style>
             fieldset {
                 border: none;
@@ -16,7 +16,8 @@
             form {
                 width: 350px;
             }
-            input {
+            input[type="password"],
+            input[type="email"] {
                 width: 170px;
                 box-sizing: border-box;
             }
@@ -32,7 +33,7 @@
     <body>
         <form action="search.html">
             <fieldset>
-                <legend>Регистрация</legend>
+                <legend>Авторизация</legend>
                 <p>
                     <label for="email">email</label
                     ><input id="email" type="email" />
@@ -42,10 +43,10 @@
                     ><input id="password" type="password" />
                 </p>
                 <p>
-                    <label for="repeat">repeat</label
-                    ><input id="repeat" type="password" />
+                    <label for="remember">remember</label
+                    ><input id="remember" type="checkbox" />
                 </p>
-                <button type="submit">Зарегистрироваться</button>
+                <button type="submit">Авторизироваться</button>
             </fieldset>
         </form>
     </body>

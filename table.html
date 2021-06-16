@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        th {
-            background-color: #01ffff;
-            text-transform: uppercase;
-        }
-        td {
-            background-color: #e0ffdf;
-        }
-        th,td {
-            padding: 18px;
-        }
-        tfoot {
-            text-align: center;
-        }
-        table {
-            width: 800px;
-        }
-
-    </style>
-</head>
-<body>
-    <table border="1">
-        <thead>
-        <tr>
-            <th colspan="3" >Моя первая таблица</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>первая ячейка</td>
-            <td>вторвя ячейка</td>
-            <td rowspan="3">А это три ячейки третьего столбца объеденились в одну большую</td>
-        </tr>
-        <tr>
-            <td colspan="2">единственная ячейка второй строки, объединяющая оба столбца</td>
-        </tr>
-        <tr>
-            <td>Это первая ячейка третьей строки</td>
-            <td>А это вторая ячейка третьей строки</td>
-        </tr>
-        </tbody>
-        <tfoot>
-        <tr>
-            <td colspan="3">Понравилось делать таблицы?</td>
-        </tr>
-        </tfoot>
-    </table>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            th {
+                background-color: #01ffff;
+                text-transform: uppercase;
+            }
+            td {
+                background-color: #e0ffdf;
+            }
+            th,
+            td {
+                padding: 18px;
+            }
+            tfoot {
+                text-align: center;
+            }
+            table {
+                width: 800px;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="3">Моя первая таблица</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>первая ячейка</td>
+                    <td>вторвя ячейка</td>
+                    <td rowspan="3">
+                        А это три ячейки третьего столбца объеденились в одну
+                        большую
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        единственная ячейка второй строки, объединяющая оба
+                        столбца
+                    </td>
+                </tr>
+                <tr>
+                    <td>Это первая ячейка третьей строки</td>
+                    <td>А это вторая ячейка третьей строки</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Понравилось делать таблицы?</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
 </html>
